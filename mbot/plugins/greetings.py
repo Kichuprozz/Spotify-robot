@@ -114,7 +114,7 @@ async def help(_, message):
     ]
 
     await message.reply_text(
-        f"Hello **{message.from_user.first_name}**, I'm **@NeedMusicRobot**.\nI'm Here to download your music.",
+        f"Hello **{message.from_user.first_name}**, I'm **@Spotifyxdbot**.\nI'm Here to download your music.",
         reply_markup=InlineKeyboardMarkup(button),
     )
 
