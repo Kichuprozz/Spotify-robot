@@ -36,16 +36,16 @@ async def start(client, message):
     reply_markup = [
         [
             InlineKeyboardButton(
-                text="Bot Channel", url="https://t.me/TheCrowClub"
+                text="Bot Channel", url="https://t.me/CKFLICKS"
             ),
             InlineKeyboardButton(
-                text="Repo", url="https://github.com/rozari0/NeedMusicRobot"
+                text="Source", url="https://t.me/AM_FILMS"
             ),
             InlineKeyboardButton(text="Help", callback_data="helphome"),
         ],
         [
             InlineKeyboardButton(
-                text="Donate", url="https://www.buymeacoffee.com/rozario"
+                text="Donate", url="https://t.me/animegural"
             ),
         ],
     ]
