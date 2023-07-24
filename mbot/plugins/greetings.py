@@ -135,6 +135,6 @@ async def help_home(_, query):
         [InlineKeyboardButton(text=i, callback_data=f"help_{i}")] for i in HELP
     ]
     await query.message.edit(
-        f"Hello **{query.from_user.first_name}**, I'm **@NeedMusicRobot**.\nI'm Here to download your music.",
+        f"Hello **{query.from_user.first_name}**, I'm **@Spotifyxdbot**.\nI'm Here to download your music.",
         reply_markup=InlineKeyboardMarkup(button),
     )
